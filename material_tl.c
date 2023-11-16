@@ -88,8 +88,8 @@ instruction_t func_list[] = {
 {"mod", mod_nd},
 {"pchar", print_char},
 {"pstr", print_str},
-{"rotl", rot},
-{"rotr", rotr},
+{"rotl", rot_f},
+{"rotr", rot_l},
 {NULL, NULL}
 };
 if (opcode[0] == '#')
@@ -145,4 +145,3 @@ add_que(&node, ln);
 else
 func(&head, ln);
 }
-

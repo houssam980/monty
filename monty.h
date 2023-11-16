@@ -74,24 +74,13 @@ void mod_nd(stack_t **, unsigned int);
 
 void print_char(stack_t **, unsigned int);
 void print_str(stack_t **, unsigned int);
-void rot(stack_t **, unsigned int);
+void rot_f(stack_t **, unsigned int);
 
 
 void err_cd(int err_code, ...);
 void too_err(int err_code, ...);
 void str_err(int err_code, ...);
-void rotr(stack_t **, unsigned int);
-
-
-
-
-
-
-
-
-
-
-
-
+void rot_l(stack_t **, unsigned int);
 
 #endif
+
