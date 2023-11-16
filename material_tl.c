@@ -16,6 +16,7 @@ fclose(fd);
 }
 
 
+
 /**
  * rd_fl - read a file
  * @fd: pointer to file
