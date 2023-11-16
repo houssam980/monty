@@ -2,7 +2,7 @@
 
 /**
  *  err_cd - handles errors
- * @err_code: error codes
+ * @err_code: error code
  * Return : nothing to return
  */
 
