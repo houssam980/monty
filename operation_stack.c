@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul_nd - mul two elements
+ * mul_nd - mul two element
  * @stack: top node of the stack
  * @line_number: line number
  * Return: Nothing return
