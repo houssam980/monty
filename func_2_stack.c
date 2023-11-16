@@ -35,7 +35,7 @@ temp->prev = NULL;
 }
 
 /**
- * add_nde - Add the top two elements
+ * add_nd - Add the top two elements
  * @stack:top node of the stack.
  * @line_number:line number
  * Return : Nothing to return
@@ -72,12 +72,6 @@ free((*stack)->prev);
 }
 
 
-
-
-
-
-
-
 /**
  * div_nd - top two elements of the stack
  * @stack: top node of the stack.
@@ -97,3 +91,4 @@ sum = (*stack)->n / (*stack)->prev->n;
 free((*stack)->prev);
 (*stack)->prev = NULL;
 }
+

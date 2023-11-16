@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul_nodes - mul two elements
+ * mul_nd - mul two elements
  * @stack: top node of the stack
  * @line_number: line number
  * Return: Nothing return
@@ -19,7 +19,7 @@ free((*stack)->prev);
 }
 
 /**
- * mod_nodes - mod two elements
+ * mod_nd - mod two elements
  * @stack: top node of the stack
  * @line_number: line number
  * Return: Nothing return
@@ -37,4 +37,3 @@ modd = (*stack)->n % (*stack)->prev->n;
 free((*stack)->prev);
 (*stack)->prev = NULL;
 }
-

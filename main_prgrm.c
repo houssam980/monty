@@ -25,7 +25,7 @@ return (0);
 
 /**
  * ct_node - Create a node
- * @n: Number
+ * @num: Number
  * Return: return pointer to the node, Otherwise NULL
  */
 stack_t *ct_node(int num)

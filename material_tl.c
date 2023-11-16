@@ -36,9 +36,9 @@ free(buffer);
 
 
 /**
- * ln_num - Separates each line
+ * prs_ln - Separates each line
  * @buffer: line from the file
- * @line_number: line number
+ * @ln_num: line number
  * @format:  storage format
  * Return: Returns 0 if is stack, 1 if queue.
  */

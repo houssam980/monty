@@ -3,7 +3,7 @@
 
 /**
  * stack_addi - Add a node to the stack
- * @new_node: Pointer to the new node
+ * @nw_nd: Pointer to the new node
  * @ln:  line number
  * Return : Nothing to return
  */

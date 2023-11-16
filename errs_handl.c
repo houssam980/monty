@@ -85,7 +85,7 @@ exit(EXIT_FAILURE);
 
 /**
  * str_err - handles errors
- * @err_code:error code 
+ * @err_code:error code
  * Return: Nothing to return
  */
 void str_err(int err_code, ...)
