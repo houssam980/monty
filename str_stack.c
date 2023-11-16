@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * print_char - Print Ascii values
+ * print_char - Print Ascii value
  * @stack: top node of the stack
  * @line_number:the line number
  * Return : Nothing to return
